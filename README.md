@@ -1,20 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Transaction UX Solution 🏦
 
-# Run and deploy your AI Studio app
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Prototype-orange?style=for-the-badge)
 
-This contains everything you need to run your app locally.
+A high-fidelity, standalone **Single File Component (SFC)** designed to prototype and preview bank transaction notifications (SMS/Push).
 
-View your app in AI Studio: https://ai.studio/apps/drive/1VZbig2IvARe6l0eT7Zm-Xyilgh6JQFJX
+This tool allows UX designers and product managers to draft financial messages with real-time validation and a realistic mobile preview.
 
-## Run Locally
+## ✨ Features
 
-**Prerequisites:**  Node.js
+* **📱 Real-time Mobile Preview:** Simulates an iPhone 17 concept interface to visualize notifications instantly.
+* **🎨 Bank-Grade UI:** Dark mode optimized with "Glassmorphism" design, built using Tailwind CSS.
+* **🧩 Variable Bank:** Drag-and-drop support for transaction variables (e.g., `{amount}`, `{card_number}`).
+* **⚡ Zero Configuration:** Runs directly in the browser using Babel Standalone. No build step required.
+* **✅ Smart Validation:** Checks for balanced braces and template integrity.
+* **📝 Rich Templates:** Pre-configured scenarios for Withdrawal, Deposit, Transfer, and more.
 
+## 🚀 How to Run
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Since this is a standalone prototype, you don't need `npm` or `node.js`.
+
+1.  Clone the repository:
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+    ```
+2.  Navigate to the folder.
+3.  Open **`index.html`** in any modern browser (Chrome, Edge, Firefox).
+
+## 🛠 Tech Stack
+
+* **Core:** React 18 (UMD)
+* **Styling:** Tailwind CSS (CDN)
+* **Compiler:** Babel Standalone
+* **Icons:** Lucide React
+
+## 📂 Project Structure
+
+```text
+.
+├── index.html       # The main application file (Logic + UI)
+└── README.md        # Documentation
